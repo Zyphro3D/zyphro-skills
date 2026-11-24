@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+<title id="t">Chargement progressif des skills</title>
+<desc id="d">Les trois niveaux de la norme Agent Skills, puis la taille réelle de chaque skill du dépôt : toutes les descriptions sous 1 024 caractères, tous les SKILL.md sous 500 lignes.</desc>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9c9ca3"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#e8434d"/></marker>
+<pattern id="weave" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#0b0b0c"/><rect width="3" height="6" fill="#0e0e10"/></pattern>
+</defs>
+<rect width="1200" height="560" rx="12" fill="url(#weave)"/>
+<text x="48" y="50" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="500" fill="#d4b06a" text-anchor="start" letter-spacing="0.16em">NORME AGENT SKILLS · CHARGEMENT PROGRESSIF</text>
+<text x="48" y="80" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#f1f1f2" text-anchor="start">Ce que Claude charge, et quand</text>
+<rect x="48" y="104" width="352" height="112" rx="8" fill="#141416" stroke="#3a3a40"/>
+<text x="68" y="156" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="800" fill="#d4b06a" text-anchor="start">1</text>
+<text x="112" y="132" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="650" fill="#f1f1f2" text-anchor="start">Métadonnées</text>
+<text x="112" y="152" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="start">name + description</text>
+<text x="112" y="176" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#f1f1f2" text-anchor="start">toujours, pour chaque skill</text>
+<text x="112" y="198" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="400" fill="#8f8f97" text-anchor="start">≈ 100 jetons</text>
+<path d="M402 160 H422" fill="none" stroke="#9c9ca3" stroke-width="1" marker-end="url(#a)"/>
+<rect x="424" y="104" width="352" height="112" rx="8" fill="#141416" stroke="#3a3a40"/>
+<text x="444" y="156" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="800" fill="#d4b06a" text-anchor="start">2</text>
+<text x="488" y="132" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="650" fill="#f1f1f2" text-anchor="start">Consignes</text>
+<text x="488" y="152" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="start">corps de SKILL.md</text>
+<text x="488" y="176" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#f1f1f2" text-anchor="start">quand le skill est choisi</text>
+<text x="488" y="198" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="400" fill="#8f8f97" text-anchor="start">&lt; 5 000 jetons · &lt; 500 lignes</text>
+<path d="M778 160 H798" fill="none" stroke="#9c9ca3" stroke-width="1" marker-end="url(#a)"/>
+<rect x="800" y="104" width="352" height="112" rx="8" fill="#141416" stroke="#3a3a40"/>
+<text x="820" y="156" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="800" fill="#d4b06a" text-anchor="start">3</text>
+<text x="864" y="132" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="650" fill="#f1f1f2" text-anchor="start">Ressources</text>
+<text x="864" y="152" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="start">fichiers voisins</text>
+<text x="864" y="176" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#f1f1f2" text-anchor="start">seulement si une consigne y renvoie</text>
+<text x="864" y="198" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="400" fill="#8f8f97" text-anchor="start">sans limite</text>
+<text x="48" y="256" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="650" fill="#f1f1f2" text-anchor="start">Description (niveau 1), en caractères</text>
+<text x="48" y="274" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="400" fill="#8f8f97" text-anchor="start">limite de la norme : 1024 caractères</text>
+<text x="188" y="311" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="end">grill-me</text>
+<rect x="198" y="300" width="340" height="16" rx="4" fill="#141416"/>
+<rect x="198" y="300" width="163.4" height="16" rx="4" fill="#d4b06a" fill-opacity="0.85"/>
+<text x="369.359375" y="312" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="500" fill="#f1f1f2" text-anchor="start">492</text>
+<text x="188" y="345" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="end">qualite-sites</text>
+<rect x="198" y="334" width="340" height="16" rx="4" fill="#141416"/>
+<rect x="198" y="334" width="127.8" height="16" rx="4" fill="#d4b06a" fill-opacity="0.85"/>
+<text x="333.83203125" y="346" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="500" fill="#f1f1f2" text-anchor="start">385</text>
+<text x="188" y="379" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="end">schemas-zyphro</text>
+<rect x="198" y="368" width="340" height="16" rx="4" fill="#141416"/>
+<rect x="198" y="368" width="119.2" height="16" rx="4" fill="#d4b06a" fill-opacity="0.85"/>
+<text x="325.19921875" y="380" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="500" fill="#f1f1f2" text-anchor="start">359</text>
+<text x="188" y="413" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="end">security-review</text>
+<rect x="198" y="402" width="340" height="16" rx="4" fill="#141416"/>
+<rect x="198" y="402" width="162.0" height="16" rx="4" fill="#d4b06a" fill-opacity="0.85"/>
+<text x="368.03125" y="414" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="500" fill="#f1f1f2" text-anchor="start">488</text>
+<text x="188" y="447" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="end">verification-rigor</text>
+<rect x="198" y="436" width="340" height="16" rx="4" fill="#141416"/>
+<rect x="198" y="436" width="164.4" height="16" rx="4" fill="#d4b06a" fill-opacity="0.85"/>
+<text x="370.35546875" y="448" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="500" fill="#f1f1f2" text-anchor="start">495</text>
+<text x="188" y="481" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="end">wizard</text>
+<rect x="198" y="470" width="340" height="16" rx="4" fill="#141416"/>
+<rect x="198" y="470" width="134.1" height="16" rx="4" fill="#d4b06a" fill-opacity="0.85"/>
+<text x="340.140625" y="482" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="500" fill="#f1f1f2" text-anchor="start">404</text>
+<text x="188" y="515" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="end">writing-for-agents</text>
+<rect x="198" y="504" width="340" height="16" rx="4" fill="#141416"/>
+<rect x="198" y="504" width="72.7" height="16" rx="4" fill="#d4b06a" fill-opacity="0.85"/>
+<text x="278.71484375" y="516" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="500" fill="#f1f1f2" text-anchor="start">219</text>
+<path d="M538 292 V534" stroke="#e8434d" stroke-width="1.2" stroke-dasharray="4,3"/>
+<text x="538" y="548" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="10" font-weight="500" fill="#e8434d" text-anchor="middle">1024</text>
+<text x="612" y="256" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="650" fill="#f1f1f2" text-anchor="start">SKILL.md (niveau 2), en lignes</text>
+<text x="612" y="274" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="400" fill="#8f8f97" text-anchor="start">limite de la norme : 500 lignes</text>
+<text x="752" y="311" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="end">grill-me</text>
+<rect x="762" y="300" width="340" height="16" rx="4" fill="#141416"/>
+<rect x="762" y="300" width="38.8" height="16" rx="4" fill="#d4b06a" fill-opacity="0.85"/>
+<text x="808.76" y="312" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="500" fill="#f1f1f2" text-anchor="start">57</text>
+<text x="752" y="345" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="end">qualite-sites</text>
+<rect x="762" y="334" width="340" height="16" rx="4" fill="#141416"/>
+<rect x="762" y="334" width="35.4" height="16" rx="4" fill="#d4b06a" fill-opacity="0.85"/>
+<text x="805.36" y="346" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="500" fill="#f1f1f2" text-anchor="start">52</text>
+<text x="752" y="379" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="end">schemas-zyphro</text>
+<rect x="762" y="368" width="340" height="16" rx="4" fill="#141416"/>
+<rect x="762" y="368" width="64.6" height="16" rx="4" fill="#d4b06a" fill-opacity="0.85"/>
+<text x="834.6" y="380" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="500" fill="#f1f1f2" text-anchor="start">95</text>
+<text x="752" y="413" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="end">security-review</text>
+<rect x="762" y="402" width="340" height="16" rx="4" fill="#141416"/>
+<rect x="762" y="402" width="59.2" height="16" rx="4" fill="#d4b06a" fill-opacity="0.85"/>
+<text x="829.16" y="414" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="500" fill="#f1f1f2" text-anchor="start">87</text>
+<text x="752" y="447" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="end">verification-rigor</text>
+<rect x="762" y="436" width="340" height="16" rx="4" fill="#141416"/>
+<rect x="762" y="436" width="132.6" height="16" rx="4" fill="#d4b06a" fill-opacity="0.85"/>
+<text x="902.6" y="448" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="500" fill="#f1f1f2" text-anchor="start">195</text>
+<text x="752" y="481" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="end">wizard</text>
+<rect x="762" y="470" width="340" height="16" rx="4" fill="#141416"/>
+<rect x="762" y="470" width="33.3" height="16" rx="4" fill="#d4b06a" fill-opacity="0.85"/>
+<text x="803.32" y="482" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="500" fill="#f1f1f2" text-anchor="start">49</text>
+<text x="752" y="515" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="400" fill="#9c9ca3" text-anchor="end">writing-for-agents</text>
+<rect x="762" y="504" width="340" height="16" rx="4" fill="#141416"/>
+<rect x="762" y="504" width="61.2" height="16" rx="4" fill="#d4b06a" fill-opacity="0.85"/>
+<text x="831.2" y="516" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="500" fill="#f1f1f2" text-anchor="start">90</text>
+<path d="M1102 292 V534" stroke="#e8434d" stroke-width="1.2" stroke-dasharray="4,3"/>
+<text x="1102" y="548" font-family="ui-monospace, 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace" font-size="10" font-weight="500" fill="#e8434d" text-anchor="middle">500</text>
+</svg>
